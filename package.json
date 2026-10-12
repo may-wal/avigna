@@ -1,0 +1,14 @@
+{
+  "name": "avigna-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Avigna static agricultural storefront and interactive farm experience",
+  "type": "module",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "test": "node tests/frontend.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
